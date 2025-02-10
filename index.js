@@ -6,7 +6,7 @@ const port = 1280
 app.use(express.json());
 
 app.post("/", (req,res) => {
-    print(req.body)
+    console.log(req.body)
     fetch(req.body.target, { method: 'post', body: req.body.request, headers: { 'Content-Type': 'application/json' } })
     res.end()
 })
