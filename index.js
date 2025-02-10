@@ -7,6 +7,7 @@ app.use(express.json());
 
 app.post("/", (req,res) => {
     fetch(req.body.target, { method: 'post', body: req.body.request, headers: { 'Content-Type': 'application/json' } })
+    res.end()
 })
 
 app.listen(port, (err) => {
