@@ -1,0 +1,23 @@
+{
+  "name": "dc-webhook-proxy",
+  "version": "1.0.0",
+  "description": "A proxy for discord webhooks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apethesis/dc-webhook-proxy.git"
+  },
+  "author": "Compec/Apethesis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Apethesis/dc-webhook-proxy/issues"
+  },
+  "homepage": "https://github.com/Apethesis/dc-webhook-proxy#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-fetch": "^2.7.0"
+  }
+}
